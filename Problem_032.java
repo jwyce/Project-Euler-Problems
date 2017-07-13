@@ -30,13 +30,13 @@ public class Problem_032 {
 	}
 	
 	private static boolean isPandigital(String s) {
-		if(s.contains("0")) return false;
-		for(int i = 1; i < 10; i++) {
-			if(s.split(Integer.toString(i)).length - 1 != 1) 
-				return false;
-		}
-		// System.out.println(s);
-		return true;
-	}
+        if(s.contains("0")) return false;
+        for(int i = 1; i <= 9; i++) {
+            if(s.length() - s.replaceAll(Integer.toString(i), "").length() != 1)
+                return false;
+        }
+        // System.out.println(s);
+        return true;
+    }
 	
 }
