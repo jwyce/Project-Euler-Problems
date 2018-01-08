@@ -29,7 +29,7 @@ public class Problem_024 {
 			}
 		}
 		
-		
+		System.out.println(perms.contains("1406357289"));
 		Collections.sort(perms);
 		return perms;
 	}

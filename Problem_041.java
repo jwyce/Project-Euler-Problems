@@ -7,7 +7,7 @@ public class Problem_041 {
 
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
-		
+	
 		System.out.println(largestPandigitalPrime());
 		
 		long endTime = System.currentTimeMillis();
