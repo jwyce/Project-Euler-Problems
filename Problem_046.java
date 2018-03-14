@@ -4,16 +4,7 @@ import java.util.ArrayList;
 
 public class Problem_046 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-
-		System.out.println(smallestGoldbachException());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static long smallestGoldbachException() {
+	static long smallestGoldbachException() {
 		long n = 3;
 		ArrayList<Long> memo = new ArrayList<>();
 		memo.add(2L);

@@ -1,15 +1,9 @@
 package euler;
 
 public class Problem_003 {
-
-	public static void main(String[] args) {
-		long startTime = System.nanoTime();
-		long input = 600851475143L;
-		
-		System.out.println("The largest prime factor is " + LargestPrimeFactor (input) + ".");
-		
-		long endTime = System.nanoTime();
-		System.out.println("It took " + (endTime - startTime) + " ns.");
+	
+	static long LargestPrimeFactor() {
+	    return LargestPrimeFactor(600851475143L);
 	}
 
 	private static long LargestPrimeFactor(long num) {

@@ -2,16 +2,7 @@ package euler;
 
 public class Problem_012 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println("The first triangle number to have over five hundred divisors is " + FindTriangleNumber () + ".");
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-
-	private static int FindTriangleNumber() {
+	static int FindTriangleNumber() {
 		int termInSeries = 1, currentTerm = 0;
 		boolean found = false;
 		

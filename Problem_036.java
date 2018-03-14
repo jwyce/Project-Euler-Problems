@@ -2,13 +2,8 @@ package euler;
 
 public class Problem_036 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(doubleBasePalindromSum(1000000));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static int doubleBasePalindromSum() {
+	    return doubleBasePalindromSum(1000000);
 	}
 	
 	private static int doubleBasePalindromSum(int upperbound) {

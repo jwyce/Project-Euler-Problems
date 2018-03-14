@@ -3,14 +3,9 @@ package euler;
 import java.util.HashSet;
 
 public class Problem_023 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(nonAbundantSum(28123));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) / 1000 + " s.");
+	
+	static int nonAbundantSum() {
+	    return nonAbundantSum(28123);
 	}
 	
 	private static int nonAbundantSum(int upperbound) {
@@ -23,7 +18,7 @@ public class Problem_023 {
 			
 			for(Integer num : abundantNums) {
 				if(abundantNums.contains(i - num)) {
-					System.out.println(num + " + " + (i - num) + " = " + i);
+					// System.out.println(num + " + " + (i - num) + " = " + i);
 					abundantSum = true;
 					break;
 				}

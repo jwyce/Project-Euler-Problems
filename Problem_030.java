@@ -4,16 +4,7 @@ import java.util.ArrayList;
 
 public class Problem_030 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-	
-		System.out.println(sumDigitFifthPowers());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static int sumDigitFifthPowers() {
+    static int sumDigitFifthPowers() {
 		ArrayList<Integer> digitFifthPowers = new ArrayList<Integer>(30);
 		int sum = 0;
 		

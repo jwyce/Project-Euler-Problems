@@ -1,17 +1,8 @@
 package euler;
 
 public class Problem_014 {
-	
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(FindLargestCollatzChain () + " produces the longest Collatz chain.");
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
 
-	private static int FindLargestCollatzChain() {
+	static int FindLargestCollatzChain() {
 		int longestChainProducer = 0, longestChain = 0;
 		
 		for(int startNum = 1; startNum < 1000000; startNum++) {

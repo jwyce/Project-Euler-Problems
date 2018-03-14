@@ -1,14 +1,9 @@
 package euler;
 
 public class Problem_035 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(numberOfCircularPrimes(1000000));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+    
+	static int numberOfCircularPrimes() {
+	    return numberOfCircularPrimes(1000000);
 	}
 	
 	private static int numberOfCircularPrimes(int upperbound) {

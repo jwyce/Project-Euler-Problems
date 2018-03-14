@@ -1,17 +1,8 @@
 package euler;
 
 public class Problem_027 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
 	
-		System.out.println(quadraticPrimeProduct());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static int quadraticPrimeProduct() {
+	static int quadraticPrimeProduct() {
 		int product = 0;
 		int mostConsecutivePrimes = 0;
 		

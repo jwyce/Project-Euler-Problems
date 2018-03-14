@@ -2,13 +2,8 @@ package euler;
 
 public class Problem_015 {
 	
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println("There are " + findPaths(20) + " such paths in a 20 x 20 grid.");
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static long findPaths() {
+	    return findPaths(20);
 	}
 
 	private static long findPaths(int gridSize) {

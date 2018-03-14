@@ -2,15 +2,10 @@ package euler;
 
 public class Problem_007 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println("The 10 001st prime number is " + FindPrime (10001) + ".");
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static long FindPrime() {
+	    return FindPrime(10001);
 	}
-
+	
 	private static long FindPrime(int nthPrime) {
 		int numberOfPrimesFound = 1;
 		long currentPrime = 1;

@@ -2,13 +2,8 @@ package euler;
 
 public class Problem_031 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(coinCombos(200));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static int coinCombos() {
+	    return coinCombos(200);
 	}
 	
 	private static int coinCombos(int targetAmount) {

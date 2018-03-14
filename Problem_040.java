@@ -4,16 +4,7 @@ import java.util.LinkedList;
 
 public class Problem_040 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(champernowneConstant());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static int champernowneConstant() {
+    static int champernowneConstant() {
 		LinkedList<Integer> constant = new LinkedList<Integer>();		// linked lists achieve O(1) insertion whereas strings/char arrays achieve O(n)
 		int i = 1;
 		int product = 1;

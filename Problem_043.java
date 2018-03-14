@@ -4,13 +4,8 @@ import java.util.ArrayList;
 
 public class Problem_043 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-
-		System.out.println(substringDivisabilitySum(get10Pandigitals()));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static long substringDivisabilitySum() {
+	    return substringDivisabilitySum(get10Pandigitals());
 	}
 	
 	private static long substringDivisabilitySum(ArrayList<String> pandigitals) {

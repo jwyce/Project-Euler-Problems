@@ -5,16 +5,10 @@ import java.util.PriorityQueue;
 
 public class Problem_050 {
 
-    
-    public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
-
-        System.out.println(consecPrimeSum(1000000));
-        
-        long endTime = System.currentTimeMillis();
-        System.out.println("It took " + (endTime - startTime) + " ms.");
+    static String consecPrimeSum() {
+        return consecPrimeSum(1000000);
     }
-
+    
     private static String consecPrimeSum(int thresh) {
         PriorityQueue<int[]> maxheap = new PriorityQueue<int[]>(1000, (a, b) -> b[0] - a[0]);
         int sum = 2;

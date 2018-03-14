@@ -5,13 +5,8 @@ import java.util.Set;
 
 public class Problem_029 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(distinctPowers(100));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static int distinctPowers() {
+	    return distinctPowers(100);
 	}
 	
 	private static int distinctPowers(int upperBound) {

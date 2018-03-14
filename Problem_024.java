@@ -4,17 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Problem_024 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(getLexographicPermutations().get(999999).toString());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
 	
-	private static ArrayList<String> getLexographicPermutations() {
+	static String getLexographicPermutations() {
 		ArrayList<String> perms = new ArrayList<String>();
 		perms.add("01");
 		perms.add("10");
@@ -28,10 +19,9 @@ public class Problem_024 {
 				}
 			}
 		}
-		
-		System.out.println(perms.contains("1406357289"));
+	
 		Collections.sort(perms);
-		return perms;
+		return perms.get(999999);
 	}
 
 }

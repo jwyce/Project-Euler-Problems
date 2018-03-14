@@ -2,13 +2,8 @@ package euler;
 
 public class Problem_006 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println("The sum square difference is " + SumSquareDifference (100) + ".");
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static int SumSquareDifference() {
+	    return SumSquareDifference(100);
 	}
 
 	private static int SumSquareDifference(int length) {

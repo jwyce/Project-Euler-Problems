@@ -2,18 +2,7 @@ package euler;
 
 public class Problem_010 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println("The sum of all the primes below 2000000 is " + SumOfPrimes () + ".");
-
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	
-	
-	private static long SumOfPrimes() {
+	static long SumOfPrimes() {
 		long sum = 2;
 		
 		for(int possiblePrime = 3; possiblePrime < 2000000; possiblePrime += 2) {

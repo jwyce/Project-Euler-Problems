@@ -3,14 +3,9 @@ package euler;
 import java.util.ArrayList;
 
 public class Problem_039 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(maxPerimeterSoultions(1000));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	
+	static int maxPerimeterSoultions() {
+	    return maxPerimeterSoultions(1000);
 	}
 	
 	private static int maxPerimeterSoultions(int upperbound) {

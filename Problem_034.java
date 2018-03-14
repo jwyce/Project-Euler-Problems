@@ -4,16 +4,7 @@ import java.util.ArrayList;
 
 public class Problem_034 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(digitFactorialSum());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static int digitFactorialSum() {
+    static int digitFactorialSum() {
 		ArrayList<Integer> curiousNums = new ArrayList<Integer>(30);
 		int sum = 0;
 		

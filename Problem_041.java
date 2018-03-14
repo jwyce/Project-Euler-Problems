@@ -5,16 +5,7 @@ import java.util.Collections;
 
 public class Problem_041 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-	
-		System.out.println(largestPandigitalPrime());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static int largestPandigitalPrime() {
+	static int largestPandigitalPrime() {
 		for(int i = 9; i > 2; i--) {
 			ArrayList<String> perms = getLexographicPermutations(i);
 			for(int j = perms.size() - 1; j >= 0; j--) {

@@ -4,16 +4,7 @@ import java.util.Arrays;
 
 public class Problem_049 {
 
-    public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
-
-        System.out.println(primePerm());
-        
-        long endTime = System.currentTimeMillis();
-        System.out.println("It took " + (endTime - startTime) + " ms.");
-    }
-
-    private static String primePerm() {
+    static String primePerm() {
         String seq;
         
         for (int n = 1001; n < 10000; n += 2) {

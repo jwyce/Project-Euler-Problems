@@ -3,14 +3,9 @@ package euler;
 import java.util.HashMap;
 
 public class Problem_026 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(longestReciprocalCylce(1000));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	
+	static int longestReciprocalCylce() {
+	    return longestReciprocalCylce(1000);
 	}
 	
 	private static int longestReciprocalCylce(int upperbound) {

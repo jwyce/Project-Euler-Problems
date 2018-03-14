@@ -1,17 +1,8 @@
 package euler;
 
 public class Problem_038 {
-	
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(largestPandigitalMultiple());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-
-	private static String largestPandigitalMultiple() {
+    
+    static String largestPandigitalMultiple() {
 		String largest = "0";
 		
 		for(int i = 1; i < 10000; i++) {

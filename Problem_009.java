@@ -2,16 +2,7 @@ package euler;
 
 public class Problem_009 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println("The product of the special pythagorean triple is " + FindSpecialPytagoreanTripleProduct () + ".");
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-
-	private static int FindSpecialPytagoreanTripleProduct() {
+	static int FindSpecialPytagoreanTripleProduct() {
 		int product = 0;
 		
 		search:

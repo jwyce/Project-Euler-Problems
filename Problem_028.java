@@ -1,14 +1,9 @@
 package euler;
 
 public class Problem_028 {
-
-	public static void main(String[] args) {
-		long startTime = System.nanoTime();
-		
-		System.out.println(spiralDiagonalSum(1001));
-		
-		long endTime = System.nanoTime();
-		System.out.println("It took " + (endTime - startTime) + " ns.");
+	
+	static int spiralDiagonalSum() {
+	    return spiralDiagonalSum(1001);
 	}
 
 	private static int spiralDiagonalSum(int n) {

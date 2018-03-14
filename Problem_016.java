@@ -4,13 +4,8 @@ import java.math.BigInteger;
 
 public class Problem_016 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println("The sum of the digits of 2^1000 is " + findPowerSum(1000));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static int findPowerSum() {
+	    return findPowerSum(1000);
 	}
 
 	private static int findPowerSum(int exponent) {

@@ -4,16 +4,7 @@ import java.util.ArrayList;
 
 public class Problem_044 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-
-		System.out.println(minPentaNumDiff());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static int minPentaNumDiff() {
+	static int minPentaNumDiff() {
 		int minDiff = Integer.MAX_VALUE;
 		ArrayList<Integer> p = new ArrayList<Integer>();
 		for (int n = 1; n < 2500; n++) {

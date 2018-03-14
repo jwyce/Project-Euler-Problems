@@ -2,13 +2,8 @@ package euler;
 
 public class Problem_017 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-
-		System.out.println("There are " + countLetters(1000) + " letters when the numbers one through one thousand are written out in English.");
-
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static int countLetters() {
+	    return countLetters(1000);
 	}
 	
 	private static int countLetters(int n) {

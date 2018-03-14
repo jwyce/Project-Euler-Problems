@@ -4,16 +4,7 @@ import java.util.ArrayList;
 
 public class Problem_037 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(truncatablePrimeSum());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static long truncatablePrimeSum() {
+    static long truncatablePrimeSum() {
 		long sum = 0;
 		long possiblePrime = 11;
 		ArrayList<Long> truncatablePrimes = new ArrayList<Long>(11);

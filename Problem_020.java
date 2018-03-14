@@ -4,13 +4,8 @@ import java.math.BigInteger;
 
 public class Problem_020 {
 	
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(factorialDigitSum(100));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	static int factorialDigitSum() {
+	    return factorialDigitSum(100);
 	}
 	
 	private static int factorialDigitSum(int num) {

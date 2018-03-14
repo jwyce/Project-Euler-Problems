@@ -7,17 +7,8 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class Problem_022 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-		
-		System.out.println(nameScoreSum());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
 	
-	private static int nameScoreSum() {
+	static int nameScoreSum() {
 		PriorityQueue<String> names = getNames();		// min heap
 		int sum = 0;
 		int index = 1;

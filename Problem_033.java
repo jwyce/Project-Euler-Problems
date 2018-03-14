@@ -5,16 +5,7 @@ import java.util.Iterator;
 
 public class Problem_033 {
 
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-
-		System.out.println(simpleDenomProduct());
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
-	}
-	
-	private static int simpleDenomProduct() {
+    static int simpleDenomProduct() {
 		HashMap<Integer, Integer> curiousFractions = get2DigitCuriousFractions();
 		Iterator<Integer> itr = curiousFractions.keySet().iterator();
 		int num = 1, denom = 1;

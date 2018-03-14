@@ -4,14 +4,9 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 public class Problem_047 {
-
-	public static void main(String[] args) {
-		long startTime = System.currentTimeMillis();
-
-		System.out.println(firstNNumsWithNDistinctPrimeFactors(4).get(0));
-		
-		long endTime = System.currentTimeMillis();
-		System.out.println("It took " + (endTime - startTime) + " ms.");
+	
+	static long firstNNumsWithNDistinctPrimeFactors() {
+	    return firstNNumsWithNDistinctPrimeFactors(4).get(0);
 	}
 
 	private static ArrayList<Long> firstNNumsWithNDistinctPrimeFactors(int n) {
