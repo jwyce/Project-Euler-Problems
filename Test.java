@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
         double startTime = System.nanoTime();
 
-        System.out.println(Problem_054.countPlayerOneWins());
+        System.out.println(Problem_058.spiralPrimes());
         double endTime = System.nanoTime();
         System.out.println("It took " + convertTime(endTime - startTime));
     }
