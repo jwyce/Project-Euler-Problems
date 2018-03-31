@@ -9,7 +9,7 @@ public class Problem_084 {
 
     static String monopolyOdds() {
         String modelString = "";
-        int[] gameBoard = simulateGames(10000000, 4);
+        int[] gameBoard = simulateGames(100000, 4);
         int[] sortedProbs = gameBoard.clone();
         Arrays.sort(sortedProbs);
         
