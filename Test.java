@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
         double startTime = System.nanoTime();
 
-        System.out.println(Problem_084.monopolyOdds());
+        System.out.println(Problem_096.sudokuSum());
         double endTime = System.nanoTime();
         System.out.println("It took " + convertTime(endTime - startTime));
     }
