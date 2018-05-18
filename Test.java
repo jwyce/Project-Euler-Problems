@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
         double startTime = System.nanoTime();
 
-        System.out.println(Problem_096.sudokuSum());
+        System.out.println(Problem_493.expectedNumberOfDistinctColors());
         double endTime = System.nanoTime();
         System.out.println("It took " + convertTime(endTime - startTime));
     }
