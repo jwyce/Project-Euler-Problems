@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
         double startTime = System.nanoTime();
 
-        System.out.println(Problem_493.expectedNumberOfDistinctColors());
+        System.out.println(Problem_206.concealedSquare());
         double endTime = System.nanoTime();
         System.out.println("It took " + convertTime(endTime - startTime));
     }
